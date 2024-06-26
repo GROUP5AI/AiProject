@@ -20,8 +20,14 @@ def set_tile(row, column):
     
     label["text"] = curr_player+"'s turn"
 
+   
     #check winner
     check_winner()
+
+
+
+
+    
 
 def check_winner():
     global turns, game_over
